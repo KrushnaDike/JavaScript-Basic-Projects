@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.tag {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: brown;
+    width: 25%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+
+input {
+    padding: 10px;
+    border: 1p solid rgb(187, 185, 185);
+    width: 30%;
+    box-sizing: border-box;
+    outline: none;
+    font: 100 1.4rem "Lucida Sans";
+    margin: 30px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    font: 100 1.4rem "Lucida Sans";
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.tags {
+    display: flex;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#myBtn2 {
+    margin: 10px auto;
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+}
+
+select, 
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: auto 30px;
+    color: white;
+    padding: 10px;
+    font: 100 1.2rem sans-serif;
+    background-color: rgb(50, 50, 50);
+}
+
+button {
+    margin: -30px;
+    background-color: rgb(153, 74, 226);
+}
+
+.container {
+    text-align: center;
+}
